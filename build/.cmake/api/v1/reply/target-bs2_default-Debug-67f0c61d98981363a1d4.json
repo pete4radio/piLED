@@ -1,0 +1,284 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "pico-sdk/src/rp2350/boot_stage2/Debug/bs2_default.elf"
+		},
+		{
+			"path" : "pico-sdk/src/rp2350/boot_stage2/Debug/bs2_default.pdb"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"pico_define_boot_stage2",
+			"target_link_options",
+			"pico_add_map_output",
+			"add_dependencies",
+			"find_package",
+			"pico_init_picotool",
+			"pico_add_dis_output",
+			"target_link_libraries",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"C:/Users/petek/.pico-sdk/src/rp2350/boot_stage2/CMakeLists.txt",
+			"C:/Users/petek/.pico-sdk/src/CMakeLists.txt",
+			"C:/Users/petek/.pico-sdk/tools/Findpicotool.cmake",
+			"C:/Users/petek/.pico-sdk/tools/CMakeLists.txt",
+			"C:/Users/petek/.pico-sdk/src/cmake/on_device.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 98,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 38,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 54,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 80,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 57,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 34,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 138,
+				"parent" : 7
+			},
+			{
+				"file" : 2,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 83,
+				"parent" : 9
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 53,
+				"parent" : 1
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"defines" : 
+			[
+				{
+					"backtrace" : 11,
+					"define" : "LIB_BOOT_STAGE2_HEADERS=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_32BIT=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_BOARD=\"pico2\""
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_BUILD=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_NO_HARDWARE=0"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_ON_DEVICE=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_RP2350=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 12,
+					"path" : "C:/Users/petek/.pico-sdk/src/rp2350/boot_stage2/asminclude"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "C:/Users/petek/.pico-sdk/src/rp2350/hardware_regs/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "C:/Users/petek/.pico-sdk/src/rp2_common/hardware_base/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "C:/Users/petek/.pico-sdk/src/common/pico_base_headers/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/generated/pico_base"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "C:/Users/petek/.pico-sdk/src/boards/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "C:/Users/petek/.pico-sdk/src/rp2350/pico_platform/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "C:/Users/petek/.pico-sdk/src/rp2_common/pico_platform_compiler/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "C:/Users/petek/.pico-sdk/src/rp2_common/pico_platform_panic/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "C:/Users/petek/.pico-sdk/src/rp2_common/pico_platform_sections/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "C:/Users/petek/.pico-sdk/src/rp2_common/hardware_dcp/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "C:/Users/petek/.pico-sdk/src/rp2350/hardware_structs/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "C:/Users/petek/.pico-sdk/src/rp2_common/hardware_rcp/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "C:/Users/petek/.pico-sdk/src/rp2350/boot_stage2/include"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "picotoolBuild::@9e89cb6b53d747b62405"
+		}
+	],
+	"id" : "bs2_default::@9e89cb6b53d747b62405",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:ARM64 /debug /INCREMENTAL",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "--script=C:/Users/petek/.pico-sdk/src/rp2350/boot_stage2/boot_stage2.ld",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-Map=bs2_default.elf.map",
+				"role" : "flags"
+			}
+		],
+		"language" : "ASM"
+	},
+	"name" : "bs2_default",
+	"nameOnDisk" : "bs2_default.elf",
+	"paths" : 
+	{
+		"build" : "pico-sdk/src/rp2350/boot_stage2",
+		"source" : "C:/Users/petek/.pico-sdk/src/rp2350/boot_stage2"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/petek/.pico-sdk/src/rp2350/boot_stage2/compile_time_choice.S",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

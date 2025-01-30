@@ -1,0 +1,10 @@
+^C:\USERS\PETEK\DOCUMENTS\GITHUB\PICO-EXAMPLES\PIO\WS2812\BUILD\_DEPS\PICOTOOL-SUBBUILD\CMAKEFILES\659C906067F967E7BFC9E07E4EEBA1BD\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/_deps/picotool-subbuild -BC:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/_deps/picotool-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/_deps/picotool-subbuild/picotool-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

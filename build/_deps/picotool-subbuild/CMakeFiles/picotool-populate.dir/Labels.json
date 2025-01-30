@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/_deps/picotool-subbuild/CMakeFiles/picotool-populate"
+		},
+		{
+			"file" : "C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/_deps/picotool-subbuild/CMakeFiles/659c906067f967e7bfc9e07e4eeba1bd/picotool-populate.rule"
+		},
+		{
+			"file" : "C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/_deps/picotool-subbuild/CMakeFiles/fdd195b6b804cfcb9e3be2813971c981/picotool-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/_deps/picotool-subbuild/CMakeFiles/8fe0716f4a0ac99a0987ecc25260f560/picotool-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/_deps/picotool-subbuild/CMakeFiles/8fe0716f4a0ac99a0987ecc25260f560/picotool-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/_deps/picotool-subbuild/CMakeFiles/8fe0716f4a0ac99a0987ecc25260f560/picotool-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/_deps/picotool-subbuild/CMakeFiles/8fe0716f4a0ac99a0987ecc25260f560/picotool-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/_deps/picotool-subbuild/CMakeFiles/8fe0716f4a0ac99a0987ecc25260f560/picotool-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/_deps/picotool-subbuild/CMakeFiles/8fe0716f4a0ac99a0987ecc25260f560/picotool-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/_deps/picotool-subbuild/CMakeFiles/8fe0716f4a0ac99a0987ecc25260f560/picotool-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/_deps/picotool-subbuild/CMakeFiles/8fe0716f4a0ac99a0987ecc25260f560/picotool-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"picotool-populate"
+		],
+		"name" : "picotool-populate"
+	}
+}

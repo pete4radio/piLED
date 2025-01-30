@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-build\CMakeFiles\de0e4cd88968fa6728b0635e0bf27e6b\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FB40F555-A9EA-302B-9F49-930BD06E8795}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

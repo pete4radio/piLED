@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\CMakeFiles\3124ddfc573362c55ae55e4bbe13af5d\pioasmBuild-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\CMakeFiles\3124ddfc573362c55ae55e4bbe13af5d\pioasmBuild-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\CMakeFiles\3124ddfc573362c55ae55e4bbe13af5d\pioasmBuild-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\CMakeFiles\3124ddfc573362c55ae55e4bbe13af5d\pioasmBuild-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\CMakeFiles\3124ddfc573362c55ae55e4bbe13af5d\pioasmBuild-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\CMakeFiles\3124ddfc573362c55ae55e4bbe13af5d\pioasmBuild-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\CMakeFiles\3124ddfc573362c55ae55e4bbe13af5d\pioasmBuild-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\CMakeFiles\8c72d4f8a58803aca10daa59f549a95e\pioasmBuild-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\CMakeFiles\384bc761a4ced0bb5f10eb0371cf2097\pioasmBuild.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petek\Documents\github\pico-examples\pio\ws2812\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\CMakeFiles\pioasmBuild" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CCF07739-1C9E-397A-A2CE-3F00A838F7EA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

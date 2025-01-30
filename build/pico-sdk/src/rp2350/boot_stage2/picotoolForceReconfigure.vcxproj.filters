@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\CMakeFiles\598393d5425b9701e7ad2c230700058a\picotoolForceReconfigure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petek\.pico-sdk\src\rp2350\boot_stage2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\pico-sdk\src\rp2350\boot_stage2\CMakeFiles\picotoolForceReconfigure" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CCF07739-1C9E-397A-A2CE-3F00A838F7EA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

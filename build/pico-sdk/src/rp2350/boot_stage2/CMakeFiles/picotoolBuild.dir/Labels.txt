@@ -1,0 +1,14 @@
+# Target labels
+ picotoolBuild
+# Source files and their labels
+C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolBuild
+C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/CMakeFiles/598393d5425b9701e7ad2c230700058a/picotoolBuild.rule
+C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/CMakeFiles/1f9ee6ac47fc065810ca2ed28ac9bd99/picotoolBuild-complete.rule
+C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/CMakeFiles/151590aebe757c78d0b0c2448ecadb49/picotoolBuild-build.rule
+C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/CMakeFiles/151590aebe757c78d0b0c2448ecadb49/picotoolBuild-configure.rule
+C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/CMakeFiles/151590aebe757c78d0b0c2448ecadb49/picotoolBuild-download.rule
+C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/CMakeFiles/151590aebe757c78d0b0c2448ecadb49/picotoolBuild-install.rule
+C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/CMakeFiles/151590aebe757c78d0b0c2448ecadb49/picotoolBuild-mkdir.rule
+C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/CMakeFiles/151590aebe757c78d0b0c2448ecadb49/picotoolBuild-patch.rule
+C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/CMakeFiles/151590aebe757c78d0b0c2448ecadb49/picotoolBuild-test.rule
+C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/CMakeFiles/151590aebe757c78d0b0c2448ecadb49/picotoolBuild-update.rule

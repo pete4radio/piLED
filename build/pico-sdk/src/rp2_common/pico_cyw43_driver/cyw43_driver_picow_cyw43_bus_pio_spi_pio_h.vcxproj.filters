@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\CMakeFiles\21e6fef8bcdabcd615767f6ea6fe0668\cyw43_bus_pio_spi.pio.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\CMakeFiles\ca34801ed4b41e7af26de9f138f05097\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petek\.pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CCF07739-1C9E-397A-A2CE-3F00A838F7EA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

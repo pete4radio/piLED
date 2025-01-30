@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeASMInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/MSVC-ASM.cmake
+C:/Users/petek/.pico-sdk/src/CMakeLists.txt
+C:/Users/petek/.pico-sdk/src/cmake/on_device.cmake
+C:/Users/petek/.pico-sdk/src/cmake/rp2_common.cmake
+C:/Users/petek/.pico-sdk/src/rp2350-arm-s.cmake
+C:/Users/petek/.pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dreq.h
+C:/Users/petek/.pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h

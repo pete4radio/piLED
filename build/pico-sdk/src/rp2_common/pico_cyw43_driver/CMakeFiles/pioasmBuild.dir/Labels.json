@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild"
+		},
+		{
+			"file" : "C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/CMakeFiles/ca34801ed4b41e7af26de9f138f05097/pioasmBuild.rule"
+		},
+		{
+			"file" : "C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/CMakeFiles/8a950dfbc0b0f5608072ba4524af122b/pioasmBuild-complete.rule"
+		},
+		{
+			"file" : "C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/CMakeFiles/786515e30b7687b9506a90759f2e0b98/pioasmBuild-build.rule"
+		},
+		{
+			"file" : "C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/CMakeFiles/786515e30b7687b9506a90759f2e0b98/pioasmBuild-configure.rule"
+		},
+		{
+			"file" : "C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/CMakeFiles/786515e30b7687b9506a90759f2e0b98/pioasmBuild-download.rule"
+		},
+		{
+			"file" : "C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/CMakeFiles/786515e30b7687b9506a90759f2e0b98/pioasmBuild-install.rule"
+		},
+		{
+			"file" : "C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/CMakeFiles/786515e30b7687b9506a90759f2e0b98/pioasmBuild-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/CMakeFiles/786515e30b7687b9506a90759f2e0b98/pioasmBuild-patch.rule"
+		},
+		{
+			"file" : "C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/CMakeFiles/786515e30b7687b9506a90759f2e0b98/pioasmBuild-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pioasmBuild"
+		],
+		"name" : "pioasmBuild"
+	}
+}

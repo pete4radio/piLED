@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>ARM64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{59F5DEEA-7E9C-3EE8-A338-1B74DDDDE1EA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsSDKDesktopARM64Support>true</WindowsSDKDesktopARM64Support>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>ARM64</Platform>
+    <ProjectName>picotool-populate</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\CMakeFiles\8fe0716f4a0ac99a0987ecc25260f560\picotool-populate-mkdir.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">Creating directories for 'picotool-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/_deps/picotool-subbuild/picotool-populate-prefix/tmp/picotool-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/Debug/picotool-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\picotool-populate-prefix\src\picotool-populate-stamp\Debug\picotool-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\CMakeFiles\8fe0716f4a0ac99a0987ecc25260f560\picotool-populate-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">Performing download step (git clone) for 'picotool-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">setlocal
+cd C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/_deps/picotool-subbuild/picotool-populate-prefix/tmp/picotool-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/Debug/picotool-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\picotool-populate-prefix\src\picotool-populate-stamp\picotool-populate-gitinfo.txt;C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\picotool-populate-prefix\src\picotool-populate-stamp\Debug\picotool-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\picotool-populate-prefix\src\picotool-populate-stamp\Debug\picotool-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\CMakeFiles\8fe0716f4a0ac99a0987ecc25260f560\picotool-populate-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">Performing update step for 'picotool-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">setlocal
+cd C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -P C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/_deps/picotool-subbuild/picotool-populate-prefix/tmp/picotool-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\picotool-populate-prefix\tmp\picotool-populate-gitupdate.cmake;C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\picotool-populate-prefix\src\picotool-populate-stamp\picotool-populate-update-info.txt;C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\picotool-populate-prefix\src\picotool-populate-stamp\Debug\picotool-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\picotool-populate-prefix\src\picotool-populate-stamp\Debug\picotool-populate-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\CMakeFiles\8fe0716f4a0ac99a0987ecc25260f560\picotool-populate-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">No patch step for 'picotool-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/Debug/picotool-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\picotool-populate-prefix\src\picotool-populate-stamp\picotool-populate-patch-info.txt;C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\picotool-populate-prefix\src\picotool-populate-stamp\Debug\picotool-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\picotool-populate-prefix\src\picotool-populate-stamp\Debug\picotool-populate-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\CMakeFiles\8fe0716f4a0ac99a0987ecc25260f560\picotool-populate-configure.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">No configure step for 'picotool-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">setlocal
+cd C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/Debug/picotool-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\picotool-populate-prefix\tmp\picotool-populate-cfgcmd.txt;C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\picotool-populate-prefix\src\picotool-populate-stamp\Debug\picotool-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\picotool-populate-prefix\src\picotool-populate-stamp\Debug\picotool-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\CMakeFiles\8fe0716f4a0ac99a0987ecc25260f560\picotool-populate-build.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">No build step for 'picotool-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">setlocal
+cd C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/Debug/picotool-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\picotool-populate-prefix\src\picotool-populate-stamp\Debug\picotool-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\picotool-populate-prefix\src\picotool-populate-stamp\Debug\picotool-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\CMakeFiles\8fe0716f4a0ac99a0987ecc25260f560\picotool-populate-install.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">No install step for 'picotool-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">setlocal
+cd C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/Debug/picotool-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\picotool-populate-prefix\src\picotool-populate-stamp\Debug\picotool-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\picotool-populate-prefix\src\picotool-populate-stamp\Debug\picotool-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\CMakeFiles\8fe0716f4a0ac99a0987ecc25260f560\picotool-populate-test.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">No test step for 'picotool-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">setlocal
+cd C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/Debug/picotool-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\picotool-populate-prefix\src\picotool-populate-stamp\Debug\picotool-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\picotool-populate-prefix\src\picotool-populate-stamp\Debug\picotool-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\CMakeFiles\fdd195b6b804cfcb9e3be2813971c981\picotool-populate-complete.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">Completed 'picotool-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/_deps/picotool-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/_deps/picotool-subbuild/CMakeFiles/Debug/picotool-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/Debug/picotool-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\picotool-populate-prefix\src\picotool-populate-stamp\Debug\picotool-populate-install;C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\picotool-populate-prefix\src\picotool-populate-stamp\Debug\picotool-populate-mkdir;C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\picotool-populate-prefix\src\picotool-populate-stamp\Debug\picotool-populate-download;C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\picotool-populate-prefix\src\picotool-populate-stamp\Debug\picotool-populate-update;C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\picotool-populate-prefix\src\picotool-populate-stamp\Debug\picotool-populate-patch;C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\picotool-populate-prefix\src\picotool-populate-stamp\Debug\picotool-populate-configure;C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\picotool-populate-prefix\src\picotool-populate-stamp\Debug\picotool-populate-build;C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\picotool-populate-prefix\src\picotool-populate-stamp\Debug\picotool-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\CMakeFiles\Debug\picotool-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\CMakeFiles\659c906067f967e7bfc9e07e4eeba1bd\picotool-populate.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\CMakeFiles\Debug\picotool-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\CMakeFiles\picotool-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">Building Custom Rule C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/_deps/picotool-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/_deps/picotool-subbuild -BC:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/_deps/picotool-subbuild --check-stamp-file C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/_deps/picotool-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\CMakeFiles\3.28.1\CMakeSystem.cmake;C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\picotool-populate-prefix\tmp\picotool-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\CMakeFiles\picotool-populate">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{243AD13D-9E41-3E14-9B58-A6C1B27A0969}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

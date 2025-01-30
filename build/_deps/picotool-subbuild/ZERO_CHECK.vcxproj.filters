@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\petek\Documents\github\pico-examples\pio\ws2812\build\_deps\picotool-subbuild\CMakeFiles\659c906067f967e7bfc9e07e4eeba1bd\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{858BCED5-B74F-3616-8C67-86E5EB140604}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,4 +1,0 @@
-# CMake generation dependency list for this directory.
-C:/Program Files/CMake/share/cmake-3.28/Modules/ExternalProject.cmake
-C:/Program Files/CMake/share/cmake-3.28/Modules/GNUInstallDirs.cmake
-C:/Users/petek/Documents/github/pico-examples/pio/ws2812/build/_deps/picotool-src/lib/nlohmann_json/CMakeLists.txt

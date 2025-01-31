@@ -71,7 +71,7 @@ endif ()
 
 get_filename_component(PICO_SDK_PATH "${PICO_SDK_PATH}" REALPATH BASE_DIR "${CMAKE_BINARY_DIR}")
 if (NOT EXISTS ${PICO_SDK_PATH})
-    message(FATAL_ERROR "Directory '${PICO_SDK_PATH}' not found with BASE_DIR '$(CMAKE_BINARY_DIR)")
+    message(FATAL_ERROR "Directory '${PICO_SDK_PATH}' not found")
 endif ()
 
 set(PICO_SDK_INIT_CMAKE_FILE ${PICO_SDK_PATH}/pico_sdk_init.cmake)

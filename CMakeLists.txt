@@ -1,15 +1,8 @@
-# Generated Cmake Pico project file
-
 cmake_minimum_required(VERSION 3.13)
-set (PROJECT ws2812)
-project(ws2812 C CXX ASM)
 
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
-
-# Initialise pico_sdk from installed location
-# (note this can come from environment, CMake cache etc)
 
 # == DO NOT EDIT THE FOLLOWING LINES for the Raspberry Pi Pico VS Code Extension to work ==
 if(WIN32)
@@ -27,10 +20,11 @@ endif()
 # ====================================================================================
 set(PICO_BOARD pico2 CACHE STRING "Board type")
 
-# Pull in Raspberry Pi Pico SDK (must be before project)
-include(pico_sdk_import.cmake)
+# Include the Pico SDK
+include($ENV{PICO_SDK_PATH}/pico_sdk_init.cmake)
 
-# Initialise the Raspberry Pi Pico SDK
+project(pio_ws2812 C CXX ASM)
+
 pico_sdk_init()
 
 add_executable(pio_ws2812)
@@ -61,7 +55,7 @@ target_link_libraries(pio_ws2812_parallel PRIVATE pico_stdlib hardware_pio hardw
 pico_add_extra_outputs(pio_ws2812_parallel)
 
 # add url via pico_set_program_url
-# example_auto_set_url(pio_ws2812_parallel)
+#example_auto_set_url(pio_ws2812_parallel)
 
 # Additionally generate python and hex pioasm outputs for inclusion in the RP2040 datasheet
 add_custom_target(pio_ws2812_datasheet DEPENDS ${CMAKE_CURRENT_LIST_DIR}/generated/ws2812.py)

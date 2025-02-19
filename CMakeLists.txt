@@ -22,6 +22,7 @@ set(PICO_BOARD pico2 CACHE STRING "Board type")
 
 # Include the Pico SDK
 include($ENV{PICO_SDK_PATH}/pico_sdk_init.cmake)
+#include(pico_sdk_init.cmake)
 
 project(pio_ws2812 C CXX ASM)
 

@@ -12,6 +12,9 @@
 #include "hardware/clocks.h"
 #include "ws2812.pio.h"
 
+PIO global_pio;
+uint global_sm;
+
 /**
  * NOTE:
  *  Take into consideration if your WS2812 is a RGB or RGBW variant.
@@ -107,6 +110,28 @@ const struct {
         {pattern_greys,   "Greys"},
 };
 
+// TX
+void red(){
+    for (int i = 0; i < NUM_PIXELS; ++i) {
+        put_pixel(global_pio, global_sm, urgb_u32(0x10, 0, 0));
+    }
+}
+
+//RX
+void green(){
+    for (int i = 0; i < NUM_PIXELS; ++i) {
+        put_pixel(global_pio, global_sm, urgb_u32(0, 0x08, 0));
+    }
+}
+
+// Idle indicated by dim white
+void white(){
+    for (int i = 0; i < NUM_PIXELS; ++i) {
+        put_pixel(global_pio, global_sm, urgb_u32(0x01, 0x01, 0x01));
+    }
+}
+
+
 int main() {
     //set_sys_clock_48();
     stdio_init_all();
@@ -124,8 +149,20 @@ int main() {
     hard_assert(success);
 
     ws2812_program_init(pio, sm, offset, WS2812_PIN, 800000, IS_RGBW);
+    global_pio = pio;
+    global_sm = sm;
 
     int t = 0;
+
+    while (1) {
+        red();
+        sleep_ms(1000);
+        green();
+        sleep_ms(1000);
+        white();
+        sleep_ms(1000);
+    }
+
     while (1) {
         int pat = rand() % count_of(pattern_table);
         int dir = (rand() >> 30) & 1 ? 1 : -1;

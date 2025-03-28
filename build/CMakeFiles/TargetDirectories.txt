@@ -1,7 +1,5 @@
 /Users/petemahowald/Documents/pico/piLED/build/CMakeFiles/pio_ws2812.dir
 /Users/petemahowald/Documents/pico/piLED/build/CMakeFiles/pio_ws2812_ws2812_pio_h.dir
-/Users/petemahowald/Documents/pico/piLED/build/CMakeFiles/pio_ws2812_parallel.dir
-/Users/petemahowald/Documents/pico/piLED/build/CMakeFiles/pio_ws2812_parallel_ws2812_pio_h.dir
 /Users/petemahowald/Documents/pico/piLED/build/CMakeFiles/pio_ws2812_datasheet.dir
 /Users/petemahowald/Documents/pico/piLED/build/CMakeFiles/edit_cache.dir
 /Users/petemahowald/Documents/pico/piLED/build/CMakeFiles/rebuild_cache.dir

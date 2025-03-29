@@ -29,7 +29,7 @@ uint global_sm;
  *
  */
 #define IS_RGBW false
-#define NUM_PIXELS 150
+#define NUM_PIXELS 2
 
 #ifdef PICO_DEFAULT_WS2812_PIN
 #define WS2812_PIN PICO_DEFAULT_WS2812_PIN

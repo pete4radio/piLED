@@ -18,7 +18,7 @@ if (EXISTS ${picoVscode})
     include(${picoVscode})
 endif()
 # ====================================================================================
-set(PICO_BOARD pico2 CACHE STRING "Board type")
+set(PICO_BOARD pico CACHE STRING "Board type")
 
 # Include the Pico SDK
 #include($ENV{PICO_SDK_PATH}/pico_sdk_init.cmake)
